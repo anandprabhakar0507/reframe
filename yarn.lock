@@ -711,6 +711,9 @@
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.1.tgz#53f349bb986ab273d601175aa1b25a655ab90ee3"
 
+"@reframe/aws@file:../../../../../home/lourot/Documents/git/reframe/plugins/aws":
+  version "0.2.2"
+
 "@types/node@*", "@types/node@^10.5.2":
   version "10.9.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"

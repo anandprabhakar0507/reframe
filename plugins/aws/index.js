@@ -49,7 +49,7 @@ aws_secret_access_key = ${secretAccessKey}
         if (fs.existsSync(getConfigFilePath(fileName))) {
             console.log(`${symbolSuccess}${getConfigFilePath(fileName, true)} already exists, skipped.`);
         } else {
-            fs.writeFileSync(getConfigFilePath(fileName), template, 'utf-8');
+            //LA_TODO fs.writeFileSync(getConfigFilePath(fileName), template, 'utf-8');
             console.log(`${symbolSuccess}${getConfigFilePath(fileName, true)} created.`);
         }
     }
